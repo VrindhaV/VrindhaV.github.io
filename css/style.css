@@ -1,0 +1,54 @@
+html {
+    padding: 0;
+    font-family: "century gothic";
+    background-image: url("TROVA PERCOSA- CHIKKU.jpg");
+    background-size: cover;
+    min-height: 95%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div {
+    background-image: url("wp3856178.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.logo {
+    display: none;
+}
+.container {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+div {
+    display: block;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.button::before {
+    content: "";
+    position: absolute;
+    top: -70px;
+    background: url("asdf.gif");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    width: 130px;
+    height: 150px;
+    z-index: -1;
+}
